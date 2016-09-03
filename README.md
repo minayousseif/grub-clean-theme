@@ -1,0 +1,1 @@
+# grub-clean-theme
