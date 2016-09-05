@@ -4,7 +4,7 @@ message-font: "Ubuntu Regular 16"
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
-terminal-font: "Calibri Regular 16"
+terminal-font: "Ubuntu Regular 16"
 terminal-box: "terminal_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -13,11 +13,11 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + boot_menu {
-   left = 15%
-   width = 30%
+   left = 10%
+   width = 35%
    top = 29%
-   height = 40%
-   item_font = "Ubuntu Regular 40"
+   height = 29%
+   item_font = "Ubuntu Regular 24"
    item_color = "#F1F1F1"
    selected_item_color= "#FFFFFF"
    selected_item_pixmap_style = "select_*.png"
