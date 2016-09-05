@@ -31,7 +31,8 @@ if [ -d "$ThemesFolder" ]; then
 fi
 echo "Updating grub config file."
 grep -q -F "GRUB_THEME=$CleanThemeFolder/theme.txt" /etc/default/grub || echo "GRUB_THEME=$CleanThemeFolder/theme.txt" >> /etc/default/grub
-sudo update-grub
+#sudo update-grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 echo ""
 echo "Clean-Boot-Theme Installed"
 echo ""
