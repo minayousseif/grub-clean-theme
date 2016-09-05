@@ -1,10 +1,10 @@
 # Designed for any resolution
 
-message-font: "Ubuntu Regular 16"
+message-font: "Unifont Regular 16"
 title-text: ""
 desktop-image: "background.png"
-desktop-color: "#000000"
-terminal-font: "Ubuntu Regular 16"
+desktop-color: "#7F7F7F"
+terminal-font: "Unifont Regular 16"
 terminal-box: "terminal_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -13,19 +13,19 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + boot_menu {
-   left = 10%
+   left = 5%
    width = 35%
    top = 29%
    height = 29%
-   item_font = "Ubuntu Regular 24"
+   item_font = "Unifont Regular 24"
    item_color = "#F1F1F1"
    selected_item_color= "#FFFFFF"
    selected_item_pixmap_style = "select_*.png"
-   icon_width = 78
-   icon_height = 80
-   item_height = 80
-   item_padding = 20
-   item_icon_space = 40
+   icon_width = 64
+   icon_height = 64
+   item_height = 70
+   item_padding = 14
+   item_icon_space = 32
    item_spacing = 20
    max_items_shown = 7
    scrollbar = false
