@@ -1,10 +1,10 @@
 # Designed for any resolution
 
-message-font: "Unifont Regular 16"
+message-font: "Ubuntu Regular 16"
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#7F7F7F"
-terminal-font: "Unifont Regular 16"
+terminal-font: "Ubuntu Regular 16"
 terminal-box: "terminal_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -17,16 +17,16 @@ terminal-border: "0"
    width = 35%
    top = 29%
    height = 29%
-   item_font = "Unifont Regular 24"
+   item_font = "Ubuntu Regular 40"
    item_color = "#F1F1F1"
    selected_item_color= "#FFFFFF"
    selected_item_pixmap_style = "select_*.png"
    icon_width = 64
    icon_height = 64
-   item_height = 70
+   item_height = 64
    item_padding = 14
    item_icon_space = 32
-   item_spacing = 20
+   item_spacing = 16
    max_items_shown = 7
    scrollbar = false
 }
@@ -34,9 +34,9 @@ terminal-border: "0"
 + circular_progress
 {
    id = "__timeout__"
-   left = 26%
+   left = 500
    width = 100
-   top = 100
+   top = 82%
    height = 100
    num_ticks = 46
    ticks_disappear = true
