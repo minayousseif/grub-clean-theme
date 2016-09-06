@@ -5,8 +5,29 @@ This a clean theme for the grub2 bootloader designed for 1920x1080 resoulution. 
 ## Installation
 
 1. clone or download this repository.
-2. run the install script
-```shell
+2. if you decide to keep the advanced options menu/ recovery menu then add the recovery title and icon for kernel repair.
+
+  Open /etc/grub.d/10_linux and search for (towards bottom):
+  ```sh
+    echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)'
+  ```
+  Insert the following immediatly after:
+  ```
+  --class recovery --class repair
+  ```
+  then edit "Advanced options for %s" to "Repair %s" or something to your liking)
+
+3. Make the Secure Boot title and icon.
+
+  Open `/etc/grub.d/30_uefi-firmware` and search for (towards the bottom) :
+  ```sh
+  menuentry '$LABEL'
+  ```
+  Insert the following immediatly after:  --class secure --class recovery
+  (note: replace `LABEL=System Setup` with `LABEL=Secure Boot`)
+
+4. cd into the /grub-clean-theme directory you cloned and run the install script
+```sh
 $ sudo ./install.sh
 ```
 
