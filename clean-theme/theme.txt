@@ -6,11 +6,6 @@ desktop-image: "background.png"
 desktop-color: "#7F7F7F"
 terminal-font: "Ubuntu Regular 16"
 terminal-box: "terminal_*.png"
-terminal-left: "0"
-terminal-top: "0"
-terminal-width: "100%"
-terminal-height: "100%"
-terminal-border: "0"
 
 + boot_menu {
    left = 5%
