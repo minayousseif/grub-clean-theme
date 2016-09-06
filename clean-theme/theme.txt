@@ -24,9 +24,9 @@ terminal-border: "0"
    icon_width = 64
    icon_height = 64
    item_height = 64
-   item_padding = 14
+   item_padding = 10
    item_icon_space = 32
-   item_spacing = 16
+   item_spacing = 32
    max_items_shown = 7
    scrollbar = false
 }
