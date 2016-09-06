@@ -30,6 +30,7 @@ if [ -d "$ThemesFolder" ]; then
   fi
 fi
 echo "Updating grub config file."
+sudo sed s/'#GRUB_DISABLE_LINUX_RECOVERY="true"'/'GRUB_DISABLE_LINUX_RECOVERY="true"'/g -i /etc/default/grub
 grep -q -F "GRUB_THEME=$CleanThemeFolder/theme.txt" /etc/default/grub || echo "GRUB_THEME=$CleanThemeFolder/theme.txt" >> /etc/default/grub
 #sudo update-grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg

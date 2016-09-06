@@ -14,6 +14,7 @@ $ sudo ./install.sh
 
 1. [Grub2 theme tutorial](http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial)
 2. [Grub2 theme file format](https://www.gnu.org/software/grub/manual/html_node/Theme-file-format.html)
+3. [Grub 2 Tweaks](https://ubuntuforums.org/showthread.php?t=1287602)
 
 ## Credits
 
