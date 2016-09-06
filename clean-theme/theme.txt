@@ -1,4 +1,4 @@
-# Designed for any resolution
+# Designed for 1920x1080 resoulution
 
 message-font: "Ubuntu Regular 16"
 title-text: ""

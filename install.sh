@@ -29,6 +29,9 @@ if [ -d "$ThemesFolder" ]; then
     done
   fi
 fi
+echo "Turn Off MEMTEST86+"
+sudo chmod -x /etc/grub.d/20_memtest86+
+
 echo "Updating grub config file."
 sudo sed s/'#GRUB_DISABLE_LINUX_RECOVERY="true"'/'GRUB_DISABLE_LINUX_RECOVERY="true"'/g -i /etc/default/grub
 grep -q -F "GRUB_THEME=$CleanThemeFolder/theme.txt" /etc/default/grub || echo "GRUB_THEME=$CleanThemeFolder/theme.txt" >> /etc/default/grub

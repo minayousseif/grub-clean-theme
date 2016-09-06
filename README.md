@@ -1,6 +1,6 @@
 # Grub2 Clean Theme
 
-This a clean theme for the grub2 bootloader. forked from [Surface-Boot-Themes](https://github.com/webbrandon/Surface-Boot-Themes/) by [@webbrandon](https://github.com/webbrandon) and inspired by [Grub2 Theme Vimix](https://github.com/Se7endAY/grub2-theme-vimix)
+This a clean theme for the grub2 bootloader designed for 1920x1080 resoulution. forked from [Surface-Boot-Themes](https://github.com/webbrandon/Surface-Boot-Themes/) by [@webbrandon](https://github.com/webbrandon) and inspired by [Grub2 Theme Vimix](https://github.com/Se7endAY/grub2-theme-vimix)
 
 ## Installation
 
