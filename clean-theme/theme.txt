@@ -6,12 +6,17 @@ desktop-image: "background.png"
 desktop-color: "#7F7F7F"
 terminal-font: "Ubuntu Regular 16"
 terminal-box: "terminal_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
 
 + boot_menu {
    left = 5%
-   width = 35%
-   top = 29%
-   height = 29%
+   width = 550
+   top = 350
+   height = 40%
    item_font = "Ubuntu Regular 40"
    item_color = "#F1F1F1"
    selected_item_color= "#FFFFFF"
@@ -26,16 +31,14 @@ terminal-box: "terminal_*.png"
    scrollbar = false
 }
 
-+ circular_progress
-{
-   id = "__timeout__"
-   left = 500
-   width = 100
-   top = 82%
-   height = 100
-   num_ticks = 46
-   ticks_disappear = true
-   start_angle = -60
-   center_bitmap = "centerQ.png"
-   tick_bitmap = "startQ.png"
+# Show a countdown message using the label component
++ label {
+  top = 82%
+  left = 35%
+  width = 30%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#FFFFFF"
+  font = "Ubuntu Regular 20"
 }
